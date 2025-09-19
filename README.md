@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ```
 
 4. **Configuración de credenciales:**
-   - Contacta al creador para recibir `credenciales.json`(conexión a Google Sheets) y el archivo .env de prueba, o bien crea los tuyos propios.
+   - Contacta al creador para recibir `credenciales.json`(conexión a Google Sheets) y el archivo `.env` de prueba, o bien crea los tuyos propios.
    - Los archivos deben colocarse exactamente con esos nombres en la raíz del proyecto para que el agente los reconozca automáticamente.
 
 
