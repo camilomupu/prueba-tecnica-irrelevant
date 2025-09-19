@@ -63,21 +63,30 @@ git clone https://github.com/camilomupu/prueba-tecnica-irrelevant.git
 cd prueba-tecnica-irrelevant
 ```
 
-2. **Instala dependencias:**
+2. **Crea y activa el entorno virtual (.venv):**
+```bash
+python -m venv .venv
+# En Linux/Mac
+source .venv/bin/activate
+# En Windows PowerShell
+.venv\Scripts\activate
+```
+
+3. **Instala dependencias:**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Configuración de credenciales:**
+4. **Configuración de credenciales:**
    - Contacta al creador para recibir `credenciales.json`(conexion a sheets) y el archivo `.env`
    - Los archivos deben colocarse exactamente con esos nombres en la raíz del proyecto para que el agente los reconozca automáticamente.
 
-4. **Ejecuta el agente:**
+5. **Ejecuta el agente:**
 ```bash
 python main.py
 ```
 
-5. **Selecciona el caso de prueba:**
+6. **Selecciona el caso de prueba:**
    - Opción **1**: Caso de uso calificado (evento corporativo)
    - Opción **2**: Caso de uso no calificado (fiesta privada)
    - Opción **3**: Modo interactivo (conversación manual)
