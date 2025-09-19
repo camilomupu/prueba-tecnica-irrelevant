@@ -55,7 +55,7 @@ El agente aplica las siguientes reglas de calificación:
 - Cuenta de Google Cloud con API de Sheets habilitada
 - API Key de Google Gemini
 
-### Pasos de Instalación:
+### ⚙️ Pasos de instalación en consola:
 
 1. **Clona el repositorio:**
 ```bash
