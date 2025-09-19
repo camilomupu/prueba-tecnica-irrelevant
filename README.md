@@ -60,7 +60,7 @@ El agente aplica las siguientes reglas de calificación:
 1. **Clona el repositorio:**
 ```bash
 git clone https://github.com/camilomupu/prueba-tecnica-irrelevant.git
-cd irrelevant-agent
+cd prueba-tecnica-irrelevant
 ```
 
 2. **Instala dependencias:**
@@ -133,7 +133,7 @@ Selecciona una opción:
 🤖 Sistema: No te preocupes, ya registré tus datos. La conversación ha finalizado.
 ```
 
-**Resultado:** ✅ El flujo se completa con éxito. La información se guarda en Google Sheets como calificado, Frank se despide y, tras el cierre, ya no responde más.
+**Resultado:** ✅ El flujo se completa con éxito. La información se guarda en Google Sheets como **calificado**, Frank se despide y, tras el cierre, ya no responde más.
 
 ### 💬 Caso 2: Cliente No Calificado ❌
 
@@ -162,7 +162,7 @@ Selecciona una opción:
 🤖 Frank: ¡Gracias por contactarnos, Carlos! Que tenga un excelente día.
 ```
 
-**Resultado:** ❌ El flujo también se completa de manera correcta. La información se guarda en Google Sheets como no calificado, Frank se despide y finaliza la conversación.
+**Resultado:** ❌ El flujo también se completa de manera correcta. La información se guarda en Google Sheets como **no calificado**, Frank se despide y finaliza la conversación.
 
 ## 🔧 Características Técnicas
 
