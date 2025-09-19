@@ -69,8 +69,8 @@ pip install -r requirements.txt
 ```
 
 3. **Configuración de credenciales:**
-   - Contacta al creador para recibir `credenciales.json` y archivo `.env`
-   - Coloca ambos archivos en la raíz del proyecto
+   - Contacta al creador para recibir `credenciales.json`(conexion a sheets) y el archivo `.env`
+   - Los archivos deben colocarse exactamente con esos nombres en la raíz del proyecto para que el agente los reconozca automáticamente.
 
 4. **Ejecuta el agente:**
 ```bash
